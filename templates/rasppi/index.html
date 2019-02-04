@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+
+	<meta charset="utf-8">
+	<meta name="description" content="UV b0is">
+	<meta name="keywords" content="uv,cancer,bad c0de">
+	<meta name="author" content="Locke Nicholls">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title>da UV z0ne</title>
+	{% load static %}
+
+	<link rel="stylesheet" type="text/css" href="{% static 'rasppi/style.css' %}">	
+</head>
+
+<body>
+
+	<h1>What Is Up welcum 2 da UV z0ne</h1>
+	
+	<p class="text">da UV is:</p>
+	<div id = "UVDisplay">		
+		<span id="UVText"><b>{{uv|floatformat:"1"}}</b></span>
+	</div>
+	<script>
+		var uv = {{uv}};
+	</script>
+	<script src="{% static 'rasppi/script.js' %}"></script>
+</body>
+</html>

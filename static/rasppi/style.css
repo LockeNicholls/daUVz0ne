@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'Comic Sans MS';
+  src: url("ComicSansMS3.ttf");
+}
+
+body {
+    background-color: pink;
+}
+
+h1,p{
+	font-family: "Comic Sans MS", cursive, sans-serif
+}
+
+#UVDisplay{
+	width:150px;
+	height:150px;
+	line-height:150px;
+	border:5px solid #000;
+	border-radius: 25px;
+	text-align:center;
+}
+
+
+#UVText{
+	display: inline-block;
+	vertical-align:middle;
+	line-height:normal;
+	font-size:72px
+	
+}
